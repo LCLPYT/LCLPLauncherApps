@@ -1,0 +1,8 @@
+{
+    "startup": {
+        "launcherCompat": 0,
+        "program": [
+            ["/", "usr", "bin", "minecraft-launcher"]
+        ]
+    }
+}
