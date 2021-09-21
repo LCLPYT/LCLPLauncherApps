@@ -52,9 +52,9 @@
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/1.6/lclpmmo-1.6.43.jar",
-            "size": 8742231,
-            "md5": "f70653893393573da3523e72480297dd",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/1.6/lclpmmo-1.6.45.jar",
+            "size": 8741421,
+            "md5": "962bbd41e760a9bf0f26e7be62e1fcb9",
             "destination": ["mods"]
         },
         {
