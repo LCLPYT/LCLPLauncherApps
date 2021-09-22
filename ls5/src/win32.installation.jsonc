@@ -9,6 +9,14 @@
             "default": ["%APPDATA%", ".minecraft"]
         }
     ],
+    "artifacts": [
+        {
+            "id": "forge",
+            "post": {
+                "args": ["-Xms1G", "-Xmx2G", "-cp", "${dependency(forge-installer/1.1.0)};${result}", "work.lclpnet.forgeinstaller.ForgeInstaller", "none", "0"]
+            }
+        }
+    ],
     "startup": {
         "launcherCompat": 0,
         "program": [
