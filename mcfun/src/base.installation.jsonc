@@ -1,0 +1,48 @@
+{
+    "version": "0.1.0",
+    "versionInt": 1,
+    "launcherVersion": ">=2.2.2",
+    "dependencies": [
+        {
+            "id": "java",
+            "version": "16"
+        }
+    ],
+    "artifacts": [
+        {
+            "id": "fabric",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.7.4/fabric-installer-0.7.4.jar",
+            "size": 132959,
+            "md5": "0f990d5d800f538ee236c8692a9469a9",
+            "post": {
+                "type": "executeProgram",
+                "program": "${dependency(java/16)}",
+                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.16.1", "-loader", "0.11.3"],
+                "makeExecutable": true,
+                "post": {
+                    "type": "trackExistingFile",
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.11.3-1.16.1"]
+                }
+            }
+        }
+    ],
+    "finalize": [
+        {
+            "type": "addMinecraftProfile",
+            "id": "mcfun",
+            "name": "LCLPNetwork's MCFun",
+            "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
+            "javaArgs": "-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+            "lastVersionId": "1.16.5-forge-36.1.4",
+            "ensureLatest": true
+        }
+    ],
+    "startup": {
+        "before": [
+            {
+                "type": "prepareMinecraftProfile",
+                "id": "mcfun"
+            }
+        ]
+    }
+}

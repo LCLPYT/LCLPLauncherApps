@@ -1,0 +1,18 @@
+{
+    "inputs": [
+        {
+            "id": "minecraftDir",
+            "hideIfExists": true,
+            "title": "Minecraft Directory",
+            "description": "Please input the path to Minecraft's main directory, as LCLPLauncher was unable to locate it automatically.<br>Please <span class=\"fw-bold text-warning\">DO NOT</span> confuse the game directory with the main directory! The main directory contains folders like <code>assets</code> and <code>versions</code>.<br><br>If you are unsure how to find the correct directory, just check it in your Minecraft Launcher:<br><ol><li>On Minecraft, click 'Installations'</li><li>Click 'New Installation'</li><li>The default path in 'Game directory' is the path you search (maybe you need to click on 'Browse', to find out)</li></ol>",
+            "type": "directory",
+            "default": ["~", ".minecraft"]
+        }
+    ],
+    "startup": {
+        "launcherCompat": 0,
+        "program": [
+            ["/", "usr", "bin", "minecraft-launcher"]
+        ]
+    }
+}
