@@ -10,6 +10,23 @@
     ],
     "artifacts": [
         {
+            "id": "resources",
+            "url": "https://lclpnet.work/lclplauncher/installations/mcfun/resources",
+            "size": 1239054,
+            "md5": "ae63e76229f8a74d4dedddf437744a9c",
+            "post": {
+                "type": "extractZip",
+                "destination": []
+            }
+        },
+        {
+            "id": "mcfun",
+            "url": "https://github.com/LCLPYT/MCFun/releases/download/v1.1.0/mcfun-1.16.1-1.1.0.jar",
+            "size": 74530,
+            "md5": "f8b016ec353bc4aab5a74a03a30d94e4",
+            "destination": ["mods"]
+        },
+        {
             "id": "fabric",
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.7.4/fabric-installer-0.7.4.jar",
             "size": 132959,
@@ -31,9 +48,9 @@
             "type": "addMinecraftProfile",
             "id": "mcfun",
             "name": "LCLPNetwork's MCFun",
-            "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
+            "icon": "https://lclpnet.work/lclplauncher/installations/mcfun/profile-icon",
             "javaArgs": "-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
-            "lastVersionId": "1.16.5-forge-36.1.4",
+            "lastVersionId": "fabric-loader-0.11.3-1.16.1",
             "ensureLatest": true
         }
     ],
