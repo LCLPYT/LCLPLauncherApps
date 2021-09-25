@@ -21,9 +21,9 @@
         },
         {
             "id": "mcfun",
-            "url": "https://github.com/LCLPYT/MCFun/releases/download/v1.1.2/mcfun-1.16.1-1.1.2.jar",
-            "size": 74700,
-            "md5": "7a65bd4d104f41bbac36f01b79a83749",
+            "url": "https://github.com/LCLPYT/MCFun/releases/download/v1.2.0/mcfun-1.16.1-1.2.0.jar",
+            "size": 88451,
+            "md5": "999497718ddf3d6d84ba792c77e4bbc9",
             "destination": ["mods"]
         },
         {
