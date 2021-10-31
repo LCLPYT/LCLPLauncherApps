@@ -1,7 +1,7 @@
 {
     "version": "0.2.6",
     "versionInt": 27,
-    "launcherVersion": ">=2.2.2",
+    "launcherVersion": ">=2.2.4",
     "dependencies": [
         {
             "id": "forge-installer",
@@ -67,8 +67,8 @@
         {
             "id": "forge",
             "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.5-36.1.4/forge-1.16.5-36.1.4-installer.jar",
-            "size": 7241792,
-            "md5": "75deb2e68b4afaebd996b4761f62a9d4",
+            "size": 7226043,
+            "md5": "5d4926e8baefac1efb743fca4a6e33a9",
             "post": {
                 "type": "executeProgram",
                 "program": "${dependency(java/16)}",
