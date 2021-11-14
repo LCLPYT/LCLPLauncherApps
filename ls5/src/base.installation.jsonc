@@ -1,11 +1,11 @@
 {
     "version": "0.2.6",
     "versionInt": 27,
-    "launcherVersion": ">=2.2.4",
+    "launcherVersion": ">=2.2.6",
     "dependencies": [
         {
             "id": "forge-installer",
-            "version": "1.1.0"
+            "version": "1.2.0"
         }
     ],
     "artifacts": [
