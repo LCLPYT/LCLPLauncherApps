@@ -66,9 +66,9 @@
         },
         {
             "id": "forge",
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.5-36.1.4/forge-1.16.5-36.1.4-installer.jar",
-            "size": 7226043,
-            "md5": "5d4926e8baefac1efb743fca4a6e33a9",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.1.4/forge-1.16.5-36.1.4-installer.jar",
+            "size": 7222528,
+            "md5": "3b40c12f66fd72b4b8ead40ecb5d7531",
             "post": {
                 "type": "executeProgram",
                 "program": "${dependency(java/16)}",
