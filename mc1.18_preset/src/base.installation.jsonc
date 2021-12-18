@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "versionInt": 1,
+    "version": "1.0.1",
+    "versionInt": 2,
     "launcherVersion": ">=2.2.2",
     "dependencies": [
         {
