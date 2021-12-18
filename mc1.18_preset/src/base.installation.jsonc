@@ -12,8 +12,8 @@
         {
             "id": "resources",
             "url": "https://lclpnet.work/lclplauncher/installations/mc1.18_preset/resources",
-            "size": 12515922,
-            "md5": "5e735fe929b3fb560350382580c5d7f7",
+            "size": 13737803,
+            "md5": "2314552d6c449469b93814738551fe4e",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -28,9 +28,9 @@
         },
         {
             "id": "fabric",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.9.1/fabric-installer-0.9.1.jar",
-            "size": 173523,
-            "md5": "1d631f8513d4c767441c66a9e3860684",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.jar",
+            "size": 175130,
+            "md5": "cb4f7229bb971d602e4b94aa5fe43ef6",
             "post": {
                 "type": "executeProgram",
                 "program": "${dependency(java/17)}",
@@ -49,7 +49,7 @@
             "id": "mc1_18_preset",
             "name": "MC 1.18 Fabric",
             "icon": "https://lclpnet.work/lclplauncher/installations/mc1.18_preset/profile-icon",
-            "javaArgs": "-Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+            "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
             "lastVersionId": "fabric-loader-0.12.12-1.18.1",
             "ensureLatest": true
         }
