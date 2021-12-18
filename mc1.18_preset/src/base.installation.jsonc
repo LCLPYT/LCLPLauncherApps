@@ -1,0 +1,65 @@
+{
+    "version": "1.0.0",
+    "versionInt": 1,
+    "launcherVersion": ">=2.2.2",
+    "dependencies": [
+        {
+            "id": "java",
+            "version": "17"
+        }
+    ],
+    "artifacts": [
+        {
+            "id": "resources",
+            "url": "https://lclpnet.work/lclplauncher/installations/mc1.18_preset/resources",
+            "size": 12515922,
+            "md5": "5e735fe929b3fb560350382580c5d7f7",
+            "post": {
+                "type": "extractZip",
+                "destination": []
+            }
+        },
+        {
+            "id": "lazydfu",
+            "url": "https://github.com/astei/lazydfu/releases/download/0.1.2/lazydfu-0.1.2.jar",
+            "size": 15517,
+            "md5": "b2597e901c05673ef2834dad32da8824",
+            "destination": ["mods"]
+        },
+        {
+            "id": "fabric",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.9.1/fabric-installer-0.9.1.jar",
+            "size": 173523,
+            "md5": "1d631f8513d4c767441c66a9e3860684",
+            "post": {
+                "type": "executeProgram",
+                "program": "${dependency(java/17)}",
+                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.18.1", "-loader", "0.12.12"],
+                "makeExecutable": true,
+                "post": {
+                    "type": "trackExistingFile",
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.12.12-1.18.1"]
+                }
+            }
+        }
+    ],
+    "finalize": [
+        {
+            "type": "addMinecraftProfile",
+            "id": "mc1_18_preset",
+            "name": "MC 1.18 Fabric",
+            "icon": "https://lclpnet.work/lclplauncher/installations/mc1.18_preset/profile-icon",
+            "javaArgs": "-Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+            "lastVersionId": "fabric-loader-0.12.12-1.18.1",
+            "ensureLatest": true
+        }
+    ],
+    "startup": {
+        "before": [
+            {
+                "type": "prepareMinecraftProfile",
+                "id": "mc1_18_preset"
+            }
+        ]
+    }
+}
