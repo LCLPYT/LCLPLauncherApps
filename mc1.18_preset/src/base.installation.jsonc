@@ -12,8 +12,8 @@
         {
             "id": "resources",
             "url": "https://lclpnet.work/lclplauncher/installations/mc1.18_preset/resources",
-            "size": 13737803,
-            "md5": "2314552d6c449469b93814738551fe4e",
+            "size": 13869989,
+            "md5": "245ffa5de7533c95df3c08832d30c625",
             "post": {
                 "type": "extractZip",
                 "destination": []
