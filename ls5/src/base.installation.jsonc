@@ -1,6 +1,6 @@
 {
-    "version": "0.3.0",
-    "versionInt": 28,
+    "version": "0.3.1",
+    "versionInt": 29,
     "launcherVersion": ">=2.2.7",
     "dependencies": [
         {
@@ -49,9 +49,9 @@
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.0.1/lclpmmo-2.0.1.jar",
-            "size": 8579696,
-            "md5": "1a000235500a24df6f97f5594ac39006",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.0.2/lclpmmo-2.0.2.jar",
+            "size": 10952163,
+            "md5": "d6a9a95ee6ac5c1d94a4574bb1740559",
             "destination": ["mods"]
         },
         {
