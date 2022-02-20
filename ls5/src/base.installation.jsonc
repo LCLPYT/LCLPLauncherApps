@@ -1,6 +1,6 @@
 {
-    "version": "0.3.1",
-    "versionInt": 29,
+    "version": "0.3.4",
+    "versionInt": 32,
     "launcherVersion": ">=2.2.7",
     "dependencies": [
         {
@@ -28,9 +28,9 @@
         },
         {
             "id": "mmoquark",
-            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.4.0/mmoquark-1.4.0.jar",
-            "size": 1607819,
-            "md5": "f66611419d3b4c0c3633dd3d21cf7b70",
+            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.4.1/mmoquark-1.4.1.jar",
+            "size": 1607845,
+            "md5": "5ed5e63cc9228b063c713680619c5969",
             "destination": ["mods"]
         },
         {
