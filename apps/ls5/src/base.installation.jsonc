@@ -1,11 +1,11 @@
 {
-    "version": "0.3.4",
-    "versionInt": 32,
+    "version": "0.4.0",
+    "versionInt": 33,
     "launcherVersion": ">=2.2.7",
     "dependencies": [
         {
             "id": "java",
-            "version": "16"
+            "version": "17"
         }
     ],
     "artifacts": [
@@ -21,191 +21,184 @@
         },
         {
             "id": "mmocontent",
-            "url": "https://github.com/LCLPYT/MMOContent/releases/download/1.5.0/mmocontent-1.5.0.jar",
-            "size": 94862,
-            "md5": "5ca91a7e2b42e6b6bc70bcbf896c9ae8",
+            "url": "https://github.com/LCLPYT/MMOContent/releases/download/1.7.2/mmocontent-1.7.2.jar",
+            "size": 121272,
+            "md5": "8f2c9a8bfc4dd1964ba720b24ed45083",
             "destination": ["mods"]
         },
         {
             "id": "mmoquark",
-            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.4.1/mmoquark-1.4.1.jar",
-            "size": 1607845,
-            "md5": "5ed5e63cc9228b063c713680619c5969",
+            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.5.0/mmoquark-1.5.0.jar",
+            "size": 1969683,
+            "md5": "03276742594a546322803f173214eee7",
             "destination": ["mods"]
         },
         {
             "id": "mmofurniture",
-            "url": "https://github.com/LCLPYT/MMOFurniture/releases/download/1.2.3/mmofurniture-1.2.3.jar",
-            "size": 1091246,
-            "md5": "07a938273e252c2558e71ffa29932129",
+            "url": "https://github.com/LCLPYT/MMOFurniture/releases/download/1.3.1/mmofurniture-1.3.1.jar",
+            "size": 1112348,
+            "md5": "1a47cad88e3a79445ad6b690ae862366",
             "destination": ["mods"]
         },
         {
             "id": "mmofoliage",
-            "url": "https://github.com/LCLPYT/MMOFoliage/releases/download/1.0.0/mmofoliage-1.0.0.jar",
-            "size": 873271,
-            "md5": "b7d47ee310716fa6ba395880a7a34ef7",
+            "url": "https://github.com/LCLPYT/MMOFoliage/releases/download/1.2.0/mmofoliage-1.2.0.jar",
+            "size": 878868,
+            "md5": "7fabdd945a439332ca6750f0bd4008fc",
             "destination": ["mods"]
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.0.3/lclpmmo-2.0.3.jar",
-            "size": 10965368,
-            "md5": "28c1d766c56c0d3ebc40f041bf5e9936",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.1.1/lclpmmo-2.1.1.jar",
+            "size": 10957147,
+            "md5": "831a5bdae006601b45491126de1f034e",
             "destination": ["mods"]
         },
         {
             "id": "blur",
-            "url": "https://cdn.modrinth.com/data/NK39zBp2/versions/2.1.0-1.16/Blur-2.1.0-1.16+fabric.jar",
-            "size": 115510,
-            "md5": "8d2f48301e0d4053969e4b093a1fa15d",
-            "destination": ["mods"]
-        },
-        {
-            "id": "better-third-person",
-            "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/v1.5.0%20/%20MC-1.16/BetterThirdPerson-Fabric-1.16.4-1.5.0.jar",
-            "size": 42354,
-            "md5": "3f0e8ccaed13f9815b833ee04a7dcf04",
+            "url": "https://cdn.modrinth.com/data/NK39zBp2/versions/2.4.1/blur-2.4.1.jar",
+            "size": 163998,
+            "md5": "b623bd7f1a487e887897230e9c3c5ce3",
             "destination": ["mods"]
         },
         {
             "id": "dynamic-fps",
-            "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/2.0.2/dynamic-fps-2.0.2.jar",
-            "size": 1275301,
-            "md5": "624e1f32ed4ca873c222c122f91553d4",
+            "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/v2.1.0/dynamic-fps-2.1.0.jar",
+            "size": 88824,
+            "md5": "d7c661987017a19774f19f19a93ba527",
             "destination": ["mods"]
         },
         {
             "id": "fabric-api",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/0.42.0+1.16/fabric-api-0.42.0+1.16.jar",
-            "size": 1090414,
-            "md5": "a0c502455195b498a8f5b4f5c15e6a04",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/0.46.4+1.18/fabric-api-0.46.4%2B1.18.jar",
+            "size": 1174956,
+            "md5": "de4088c11e9e5233a62650b17588486f",
             "destination": ["mods"]
         },
         {
             "id": "falling-leaves",
-            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/1.6.0/fallingleaves-1.6.0+1.16.5.jar",
-            "size": 1129199,
-            "md5": "e71b01d4636ea5b4c3b297f3e98e44ff",
+            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/1.9.0/fallingleaves-1.9.0+1.18.1.jar",
+            "size": 139971,
+            "md5": "e8bc3f8c7a93a2f3f6a857dd88a7cfff",
             "destination": ["mods"]
         },
         {
-            "id": "hydrogen",
-            "url": "https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar",
-            "size": 117236,
-            "md5": "86d48d7adc588922661ba0d1cde156d5",
+            "id": "ferrite-core",
+            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.1.2/ferritecore-4.1.2-fabric.jar",
+            "size": 115546,
+            "md5": "54c3199b30b813a7bd5d37028b31c53e",
             "destination": ["mods"]
         },
         {
             "id": "indium",
-            "url": "https://cdn.modrinth.com/data/Orvt0mRa/versions/1.0.0+mc1.16.5/indium-1.0.0+mc1.16.5.jar",
-            "size": 114793,
-            "md5": "4247babd00fe95c49926f30e3b14bb8f",
+            "url": "https://cdn.modrinth.com/data/Orvt0mRa/versions/1.0.2-alpha3+mc1.18.1/indium-1.0.2-alpha3+mc1.18.1.jar",
+            "size": 114428,
+            "md5": "24ae7580cf0b4638bea6213e1dc0e678",
             "destination": ["mods"]
         },
         {
             "id": "iris",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/1.16.x/v1.2.0/iris-mc1.16.5-1.2.0-pre.jar",
-            "size": 1682879,
-            "md5": "59c4814f1d2b786deffb2c8c7625a732",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/1.18.x/v1.2.0/iris-mc1.18.1-1.2.0-pre.jar",
+            "size": 1779258,
+            "md5": "35415173d6c67a3ef387953aabe52743",
             "destination": ["mods"]
         },
         {
             "id": "krypton",
-            "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.2/krypton-0.1.2.jar",
-            "size": 118261,
-            "md5": "9f7949e7c56ea7dff3eabf357a29348c",
+            "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.9/krypton-0.1.9.jar",
+            "size": 132286,
+            "md5": "0290b774591b69730c0dff32b512d22c",
             "destination": ["mods"]
         },
         {
             "id": "lambdabettergrass",
-            "url": "https://cdn.modrinth.com/data/2Uev7LdA/versions/1.0.3+1.16/lambdabettergrass-fabric-1.0.3+1.16.jar",
-            "size": 1091254,
-            "md5": "7397cfe9d5da32821c4a1c5239b8b9b3",
+            "url": "https://cdn.modrinth.com/data/2Uev7LdA/versions/1.2.2+1.17/lambdabettergrass-1.2.2+1.17.jar",
+            "size": 1151004,
+            "md5": "d8a78547f53fbc1cea837c8c612984bb",
             "destination": ["mods"]
         },
         {
             "id": "lambdynamiclights",
-            "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/1.3.4+1.16/lambdynamiclights-fabric-1.3.4+1.16.jar",
-            "size": 506005,
-            "md5": "75ae672c5749a676f86455d2673f4147",
+            "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/2.1.0+1.17/lambdynamiclights-2.1.0+1.17.jar",
+            "size": 592987,
+            "md5": "0c2cc87d3d9b875d699aa8a2bfe67112",
             "destination": ["mods"]
         },
         {
             "id": "lithium",
-            "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.16.5-0.6.6/lithium-fabric-mc1.16.5-0.6.6.jar",
-            "size": 349400,
-            "md5": "19f9a82b0753ae21430761a8916f0533",
+            "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/mc1.18.1-0.7.8/lithium-fabric-mc1.18.1-0.7.8.jar",
+            "size": 449519,
+            "md5": "3b9158c1859d841419ec0306c66a0928",
             "destination": ["mods"]
         },
         {
             "id": "modmenu",
-            "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.22/modmenu-1.16.22.jar",
-            "size": 255238,
-            "md5": "9605c28631aa3ab220fa65e653281158",
+            "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/3.0.1/modmenu-3.0.1.jar",
+            "size": 270707,
+            "md5": "9411d9c800ef983de97aa641e791f276",
             "destination": ["mods"]
         },
         {
             "id": "okzoomer",
-            "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.1+1.16.2/okzoomer-4.0.1+1.16.2.jar",
-            "size": 611285,
-            "md5": "732b559a504e3f5a8454fed7620443bb",
+            "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.3+1.17.1/okzoomer-5.0.0-beta.3+1.17.1.jar",
+            "size": 269759,
+            "md5": "466ef40f80e077bfbd701cea64530498",
             "destination": ["mods"]
         },
         {
-            "id": "phosphor",
-            "url": "https://cdn.modrinth.com/data/hEOCdOgW/versions/mc1.16.2-0.8.0/phosphor-fabric-mc1.16.2-0.8.0.jar",
-            "size": 93350,
-            "md5": "cf891a10f399aefbbd80856f11657ec6",
+            "id": "starlight",
+            "url": "https://cdn.modrinth.com/data/H8CaAYZC/versions/Starlight%201.0.0%201.18.x/starlight-1.0.0+fabric.d0a3220.jar",
+            "size": 127235,
+            "md5": "8f2e0293b96da3ec63ee55560ed8a6e3",
             "destination": ["mods"]
         },
         {
             "id": "presence-footsteps",
-            "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/29/PresenceFootsteps-r29+1.16.4.jar",
-            "size": 7218237,
-            "md5": "3b3b6eda2de382c6b359fcb03601364a",
+            "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/1.4.0/PresenceFootsteps-1.4.0.jar",
+            "size": 7203878,
+            "md5": "e1055e1ac611212307534d621067ad63",
             "destination": ["mods"]
         },
         {
             "id": "sodium",
-            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/mc1.16.5-0.2.0/sodium-fabric-mc1.16.5-0.2.0+build.4.jar",
-            "size": 507710,
-            "md5": "98914f22cfe2d0ea5d8007ae8ff96062",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/mc1.18.1-0.4.0-alpha6/sodium-fabric-mc1.18.1-0.4.0-alpha6+build.14.jar",
+            "size": 1315447,
+            "md5": "9a8c1252bdfa309c7732649cb5ff7656",
             "destination": ["mods"]
         },
         {
             "id": "reeses-sodium-options",
-            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/mc1.16.5-1.4.0/reeses_sodium_options-mc1.16.5-1.4.0.jar",
-            "size": 41524,
-            "md5": "2120dc4d1606cb475a992152a62616f1",
+            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/mc1.18.1-1.4.0/reeses_sodium_options-mc1.18.1-1.4.0.jar",
+            "size": 41887,
+            "md5": "23472f8ca904fb5e761775df3221f0a7",
             "destination": ["mods"]
         },
         {
             "id": "sodium-extra",
-            "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/mc1.16.5-0.3.9/sodium-extra-mc1.16.5-0.3.9.jar",
-            "size": 155914,
-            "md5": "682af7f8f8fadb6eb3c6bf5d1705c3aa",
+            "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/mc1.18.1-0.4.0/sodium-extra-mc1.18.1-0.4.0.jar",
+            "size": 175458,
+            "md5": "145294fc94f5d80bc9290edfbcfa7bf0",
             "destination": ["mods"]
         },
         {
             "id": "screenshot-to-clipboard",
-            "url": "https://cdn.modrinth.com/data/1KiJRrTg/versions/1.0.7+fabric/screenshot-to-clipboard-1.0.7-fabric.jar",
-            "size": 15066,
-            "md5": "0e73a6ca741a076d9252296408665c8d",
+            "url": "https://cdn.modrinth.com/data/1KiJRrTg/versions/1.0.9+fabric/screenshot-to-clipboard-1.0.9-fabric.jar",
+            "size": 16539,
+            "md5": "dcfe430639b2540ca604feba131af89d",
             "destination": ["mods"]
         },
         {
             "id": "visualoverhaul",
-            "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/3.2.0/visualoverhaul-3.2.0.jar",
-            "size": 130854,
-            "md5": "725d75098547a63b9feb30ad2f435090",
+            "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/4.0.0/visualoverhaul-4.0.0.jar",
+            "size": 163450,
+            "md5": "a180d0948156fe408bf556681059c9b4",
             "destination": ["mods"]
         },
         {
-            "id": "bobby",
-            "url": "https://cdn.modrinth.com/data/M08ruV16/versions/1.2.0/bobby-1.2.0.jar",
-            "size": 750539,
-            "md5": "ab0d719b1c5d0641a1e6463cc888751c",
+            "id": "distant-horizons",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/1.6.2a-1.18.1/DistantHorizons-1.6.2a-1.18.1.jar",
+            "size": 2237463,
+            "md5": "e6849e159686c42cc62f43cf4eeb4500",
             "destination": ["mods"]
         },
         {
@@ -217,28 +210,32 @@
         },
         {
             "id": "oauth-fabric",
-            "url": "https://cdn.modrinth.com/data/K8pn1qHf/versions/1.0-1.16-fabric/oauth-fabric-1.0-1.16.5.jar",
-            "size": 51735,
-            "md5": "6ab35f84d2a32cd90e0edfd1a1c1be84",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3566331,
+                "projectId": 515054
+            },
+            "size": 97926,
+            "md5": "559aa4f7f780a2388825811c2c3a93cc",
             "destination": ["mods"]
         },
         {
             "id": "geckolib",
             "url": {
                 "type": "curseforge",
-                "fileId": 3629664,
+                "fileId": 3661790,
                 "projectId": 388172
             },
-            "size": 3467455,
-            "md5": "00ead4b75233b176603fb0b2bfcb3006",
+            "size": 3550036,
+            "md5": "cc1818f0a6eef63886c6b43c61e0a4a9",
             "destination": ["mods"]
         },
         {
             "id": "entityculling",
             "url": {
                 "type": "curseforge",
-                "fileId": 3358819,
-                "projectId": 448233
+                "fileId": 3642143,
+                "projectId": 44583
             },
             "size": 42382,
             "md5": "5763629ca7b57cdf90bc53c52b50c4e7",
@@ -248,22 +245,22 @@
             "id": "worldedit",
             "url": {
                 "type": "curseforge",
-                "fileId": 3283693,
+                "fileId": 3631606,
                 "projectId": 225608
             },
-            "size": 5312767,
-            "md5": "96ff53c70d4a3ff9df5592462b0f0685",
+            "size": 5496487,
+            "md5": "0d40b7c74f9a02f0f4bba3c39118abce",
             "destination": ["mods"]
         },
         {
             "id": "worldedit-cui",
             "url": {
                 "type": "curseforge",
-                "fileId": 3196964,
+                "fileId": 3631378,
                 "projectId": 402098
             },
-            "size": 127863,
-            "md5": "5e4f94a2a6e914bbadf95d4337355559",
+            "size": 150381,
+            "md5": "b2bd3d9ed9b452b75c8bc40ebf24ce84",
             "destination": ["mods"]
         },
         {
@@ -273,12 +270,12 @@
             "md5": "cb4f7229bb971d602e4b94aa5fe43ef6",
             "post": {
                 "type": "executeProgram",
-                "program": "${dependency(java/16)}",
-                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.16.5", "-loader", "0.13.2"],
+                "program": "${dependency(java/17)}",
+                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.18.1", "-loader", "0.13.3"],
                 "makeExecutable": true,
                 "post": {
                     "type": "trackExistingFile",
-                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.13.2-1.16.5"]
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.13.3-1.18.1"]
                 }
             }
         }
@@ -289,8 +286,8 @@
             "id": "ls5",
             "name": "LCLPServer 5.0",
             "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
-            "javaArgs": "-Xmx3G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
-            "lastVersionId": "fabric-loader-0.13.2-1.16.5",
+            "javaArgs": "-Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+            "lastVersionId": "fabric-loader-0.13.3-1.18.1",
             "ensureLatest": true
         }
     ],
