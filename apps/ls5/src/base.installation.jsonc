@@ -1,6 +1,6 @@
 {
-    "version": "0.4.0",
-    "versionInt": 33,
+    "version": "0.4.3",
+    "versionInt": 36,
     "launcherVersion": ">=2.2.7",
     "dependencies": [
         {
@@ -28,9 +28,9 @@
         },
         {
             "id": "mmoquark",
-            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.5.0/mmoquark-1.5.0.jar",
-            "size": 1969683,
-            "md5": "03276742594a546322803f173214eee7",
+            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.5.1/mmoquark-1.5.1.jar",
+            "size": 1970380,
+            "md5": "5ff8678bc7fe1bcb601052fbd3cc4c4d",
             "destination": ["mods"]
         },
         {
@@ -49,9 +49,9 @@
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.1.1/lclpmmo-2.1.1.jar",
-            "size": 10957147,
-            "md5": "831a5bdae006601b45491126de1f034e",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.1.2/lclpmmo-2.1.2.jar",
+            "size": 10958003,
+            "md5": "7936c4f6fceecc4e1ac3cf6fdbe7d834",
             "destination": ["mods"]
         },
         {
@@ -209,6 +209,17 @@
             "destination": ["mods"]
         },
         {
+            "id": "cloth-config",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3641132,
+                "projectId": 319057
+            },
+            "size": 1122823,
+            "md5": "85b627bfbfa933d83c383a5e7034f496",
+            "destination": ["mods"]
+        },
+        {
             "id": "oauth-fabric",
             "url": {
                 "type": "curseforge",
@@ -235,10 +246,10 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3642143,
-                "projectId": 44583
+                "projectId": 448233
             },
-            "size": 42382,
-            "md5": "5763629ca7b57cdf90bc53c52b50c4e7",
+            "size": 44583,
+            "md5": "b2c0d3c65bb7a76f9924e85e206602b9",
             "destination": ["mods"]
         },
         {
@@ -286,7 +297,7 @@
             "id": "ls5",
             "name": "LCLPServer 5.0",
             "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
-            "javaArgs": "-Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+            "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
             "lastVersionId": "fabric-loader-0.13.3-1.18.1",
             "ensureLatest": true
         }
