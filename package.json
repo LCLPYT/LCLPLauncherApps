@@ -1,0 +1,24 @@
+{
+  "name": "lclplauncher-apps",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "compile": "node src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LCLPYT/LCLPLauncherApps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LCLPYT/LCLPLauncherApps/issues"
+  },
+  "homepage": "https://github.com/LCLPYT/LCLPLauncherApps#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "jsonc": "^2.0.0"
+  }
+}
