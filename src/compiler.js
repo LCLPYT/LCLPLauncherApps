@@ -3,6 +3,7 @@ import fs from 'fs'
 import { mergeObjects } from './utils.js';
 import { exists, mkdirp } from './fshelper.js';
 import { jsoncSafe } from "jsonc/lib/jsonc.safe.js";
+import { error } from './common.js';
 
 export async function compile(dir) {
     const src = 'src', out = 'out';
@@ -11,7 +12,9 @@ export async function compile(dir) {
     // parse base file
     const baseFileName = 'base.installation.jsonc';
     const baseFile = path.resolve(dir, src, baseFileName)
-    const base = jsoncSafe.parse(await fs.promises.readFile(baseFile, 'utf8'))
+    const [err, base] = jsoncSafe.parse(await fs.promises.readFile(baseFile, 'utf8'))
+    if (err)
+        error(`Error parsing '${baseFile}: ${err}'`)
 
     // create out directory, if it does not exist yet
     if (!await exists(outDir)) 
@@ -26,7 +29,10 @@ export async function compile(dir) {
 }
 
 export async function compileFile(file, base, out) {
-    const content = jsoncSafe.parse(await fs.promises.readFile(file, 'utf8'))
+    const [err, content] = jsoncSafe.parse(await fs.promises.readFile(file, 'utf8'))
+    if (err)
+        error(`Error parsing '${file}: ${err}'`);
+
     const merged = mergeObjects(base, content, [])
     const name = path.basename(file).split('.')[0].concat('.jsonc')
 
