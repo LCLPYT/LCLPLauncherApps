@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "compile": "node src/index.js"
+    "compile": "node src/index.js",
+    "tool:artifact": "node src/tools.js artifact"
   },
   "type": "module",
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/LCLPYT/LCLPLauncherApps#readme",
   "dependencies": {
     "chalk": "^5.0.1",
-    "jsonc": "^2.0.0"
+    "jsonc": "^2.0.0",
+    "nodejs-file-downloader": "^4.9.3"
   }
 }

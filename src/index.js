@@ -1,18 +1,14 @@
 import chalk from 'chalk';
 import path from 'path';
 import { argv } from 'process';
+import { error, tooFewArguments } from './common.js';
 import { compile } from './compiler.js';
 import { exists } from './fshelper.js';
 
-function error(msg) {
-    console.error(chalk.red(msg));
-    process.exit(1);
-}
-
-const [exe, index, ...args] = argv;
+const args = argv.slice(2);
 
 if (args.length < 1) 
-    error(`To few arguments.\nUsage: ${exe} ${index} <appId>`);
+    tooFewArguments('<appId>');
 
 const appId = args[0];
 const dir = path.resolve('apps', appId);
