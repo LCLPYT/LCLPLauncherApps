@@ -1,6 +1,6 @@
 {
-    "version": "0.4.3",
-    "versionInt": 36,
+    "version": "0.4.5",
+    "versionInt": 38,
     "launcherVersion": ">=2.2.7",
     "dependencies": [
         {
@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 28140676,
-            "md5": "ca92f3dde048c654a9c1abc3c66d7031",
+            "size": 28177783,
+            "md5": "602b37956b5cdb5d13ebddfa8bdfc0f9",
             "post": {
                 "type": "extractZip",
                 "destination": []
