@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 13313033,
-            "md5": "3d75e186d936a9313c10e0a38a75a6f0",
+            "size": 28140676,
+            "md5": "ca92f3dde048c654a9c1abc3c66d7031",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -49,9 +49,9 @@
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.1.2/lclpmmo-2.1.2.jar",
-            "size": 10958003,
-            "md5": "7936c4f6fceecc4e1ac3cf6fdbe7d834",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.1.4/lclpmmo-2.1.4.jar",
+            "size": 10959286,
+            "md5": "7b10e47e0cfe949436222546ec347bde",
             "destination": ["mods"]
         },
         {
@@ -209,6 +209,83 @@
             "destination": ["mods"]
         },
         {
+            "id": "adorn",
+            "url": "https://cdn.modrinth.com/data/E6FUtRJh/versions/3.3.1-fabric/Adorn-3.3.1%2B1.18.1-fabric.jar",
+            "size": 4002096,
+            "md5": "d234413da2adde9ac7aeb98e56a9c604",
+            "destination": ["mods"]
+        },
+        {
+            "id": "consistency-plus",
+            "url": "https://cdn.modrinth.com/data/nDHcEOt3/versions/0.5.0-RC1+Fabric-1.18/consistency_plus-0.5.0-RC1+1.18.1-fabric.jar",
+            "size": 10677065,
+            "md5": "19d9771c500eaae3c862cf64610633e8",
+            "destination": ["mods"]
+        },
+        {
+            "id": "betterbeds",
+            "url": "https://cdn.modrinth.com/data/kKwy3HU9/versions/1.2.0/betterbeds-1.2.0.jar",
+            "size": 44260,
+            "md5": "c724dd32fb0396899e4e6916983815c0",
+            "destination": ["mods"]
+        },
+        {
+            "id": "betterf3",
+            "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.2/BetterF3-1.2.2-Fabric-1.18.jar",
+            "size": 1260459,
+            "md5": "1efb0fa01487c27debf48d32c0cc2680",
+            "destination": ["mods"]
+        },
+        {
+            "id": "continuity",
+            "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.1.0+1.18/continuity-1.1.0%2B1.18.jar",
+            "size": 1100097,
+            "md5": "63d0de818d3f85fbeb2675b7147a55f6",
+            "destination": ["mods"]
+        },
+        {
+            "id": "drip-sounds",
+            "url": "https://cdn.modrinth.com/data/T8MMXTpr/versions/1.18-0.3.0/DripSounds-1.18-0.3.0.jar",
+            "size": 85682,
+            "md5": "ce4e87a863961259bbf49d0aba9522f8",
+            "destination": ["mods"]
+        },
+        {
+            "id": "visuality",
+            "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/0.4.1/visuality-0.4.1.jar",
+            "size": 89346,
+            "md5": "e406308198554aaa265eadd59886dd55",
+            "destination": ["mods"]
+        },
+        {
+            "id": "pinglist",
+            "url": "https://cdn.modrinth.com/data/GzmTgzUV/versions/1.3.3/pinglist-1.3.3.jar",
+            "size": 40227,
+            "md5": "a9e872493557d8e1925d642ac9bf1b41",
+            "destination": ["mods"]
+        },
+        {
+            "id": "pehkui",
+            "url": "https://cdn.modrinth.com/data/t5W7Jfwy/versions/3.2.1+1.14.4-1.19/Pehkui-3.2.1%2B1.14.4-1.19.jar",
+            "size": 342260,
+            "md5": "0734d89c70c9cb0cb2f60ff212d735d0",
+            "destination": ["mods"]
+        },
+        {
+            "id": "no-telemetry",
+            "url": "https://cdn.modrinth.com/data/hg77g4Pw/versions/1.3.0/no-telemetry-1.3.0.jar",
+            "size": 84523,
+            "md5": "4ce72926e1798a0a5335ac03171b8bf5",
+            "destination": ["mods"]
+        },
+        {
+            "id": "fabric-language-kotlin",
+            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/1.7.1+kotlin.1.6.10/fabric-language-kotlin-1.7.1+kotlin.1.6.10.jar",
+            "size": 6052131,
+            "md5": "f46bef83dc6266252bf39e27197c6a03",
+            "destination": ["mods"]
+        },
+        {
             "id": "cloth-config",
             "url": {
                 "type": "curseforge",
@@ -228,6 +305,28 @@
             },
             "size": 97926,
             "md5": "559aa4f7f780a2388825811c2c3a93cc",
+            "destination": ["mods"]
+        },
+        {
+            "id": "architectury",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3717908,
+                "projectId": 419697
+            },
+            "size": 538275,
+            "md5": "3855d61dc29f6e7d09885821af3a9a37",
+            "destination": ["mods"]
+        },
+        {
+            "id": "effective",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3580078,
+                "projectId": 556381
+            },
+            "size": 1512100,
+            "md5": "875cdee897fd53df724e59a7d9b4caa2",
             "destination": ["mods"]
         },
         {
