@@ -1,7 +1,7 @@
 {
-    "version": "0.4.5",
-    "versionInt": 38,
-    "launcherVersion": ">=2.2.7",
+    "version": "0.4.6",
+    "versionInt": 39,
+    "launcherVersion": ">=2.3.0",
     "dependencies": [
         {
             "id": "java",
@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 28177783,
-            "md5": "602b37956b5cdb5d13ebddfa8bdfc0f9",
+            "size": 28179167,
+            "md5": "03b691e432dcbb385d91f5fda988ea91",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -385,7 +385,8 @@
                 "makeExecutable": true,
                 "post": {
                     "type": "trackExistingFile",
-                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.13.3-1.18.1"]
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.13.3-1.18.1"],
+                    "skipUninstall": true
                 }
             }
         }
@@ -408,5 +409,8 @@
                 "id": "ls5"
             }
         ]
-    }
+    },
+    "keepFiles": [
+        "screenshots"
+    ]
 }
