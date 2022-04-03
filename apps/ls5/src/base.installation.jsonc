@@ -325,17 +325,17 @@
             "md5": "3855d61dc29f6e7d09885821af3a9a37",
             "destination": ["mods"]
         },
-        {
-            "id": "effective",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3580078,
-                "projectId": 556381
-            },
-            "size": 1512100,
-            "md5": "875cdee897fd53df724e59a7d9b4caa2",
-            "destination": ["mods"]
-        },
+        // {
+        //     "id": "effective",
+        //     "url": {
+        //         "type": "curseforge",
+        //         "fileId": 3580078,
+        //         "projectId": 556381
+        //     },
+        //     "size": 1512100,
+        //     "md5": "875cdee897fd53df724e59a7d9b4caa2",
+        //     "destination": ["mods"]
+        // },
         {
             "id": "geckolib",
             "url": {
