@@ -1,6 +1,6 @@
 {
-    "version": "0.4.6",
-    "versionInt": 39,
+    "version": "0.4.7",
+    "versionInt": 40,
     "launcherVersion": ">=2.3.0",
     "dependencies": [
         {
@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 28179167,
-            "md5": "03b691e432dcbb385d91f5fda988ea91",
+            "size": 29302373,
+            "md5": "7e06614d7f9fa7700ea881d6a9a8f086",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -286,6 +286,13 @@
             "destination": ["mods"]
         },
         {
+            "id": "edit-sign",
+            "url": "https://cdn.modrinth.com/data/hFMCvH85/versions/1.18.1-2.2.7/EditSign-1.18.1-2.2.7.jar",
+            "size": 942309,
+            "md5": "40748ee6d47232ce53e660db300af838",
+            "destination": ["mods"]
+        },
+        {
             "id": "cloth-config",
             "url": {
                 "type": "curseforge",
@@ -371,6 +378,39 @@
             },
             "size": 150381,
             "md5": "b2bd3d9ed9b452b75c8bc40ebf24ce84",
+            "destination": ["mods"]
+        },
+        {
+            "id": "malilib",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3671369,
+                "projectId": 303119
+            },
+            "size": 493311,
+            "md5": "34b3245333cde8544bb47e2490c658c1",
+            "destination": ["mods"]
+        },
+        {
+            "id": "litematica",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3671382,
+                "projectId": 308892
+            },
+            "size": 893885,
+            "md5": "dda4a91d6aca5e84ae48a1375ef2a53f",
+            "destination": ["mods"]
+        },
+        {
+            "id": "accurate-block-placement",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3673256,
+                "projectId": 323316
+            },
+            "size": 22639,
+            "md5": "67c60a3fb2bcd6456406929a0865a3cd",
             "destination": ["mods"]
         },
         {
