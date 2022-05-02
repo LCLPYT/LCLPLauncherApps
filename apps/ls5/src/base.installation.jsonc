@@ -1,6 +1,6 @@
 {
-    "version": "0.4.7",
-    "versionInt": 40,
+    "version": "0.4.9",
+    "versionInt": 42,
     "launcherVersion": ">=2.3.0",
     "dependencies": [
         {
@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 29302373,
-            "md5": "7e06614d7f9fa7700ea881d6a9a8f086",
+            "size": 29182908,
+            "md5": "0fc06e27cada10f2768af3443cb621da",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -28,9 +28,9 @@
         },
         {
             "id": "mmoquark",
-            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.5.1/mmoquark-1.5.1.jar",
-            "size": 1970380,
-            "md5": "5ff8678bc7fe1bcb601052fbd3cc4c4d",
+            "url": "https://github.com/LCLPYT/MMOQuark/releases/download/1.5.2/mmoquark-1.5.2.jar",
+            "size": 1971482,
+            "md5": "c4bdc391375f621a583836b860f9977f",
             "destination": ["mods"]
         },
         {
@@ -196,9 +196,9 @@
         },
         {
             "id": "distant-horizons",
-            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/1.6.2a-1.18.1/DistantHorizons-1.6.2a-1.18.1.jar",
-            "size": 2237463,
-            "md5": "e6849e159686c42cc62f43cf4eeb4500",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/1.6.3a-1.18.1/DistantHorizons-1.6.3a-1.18.1.jar",
+            "size": 2583323,
+            "md5": "63800cca620f2fab795403c3d49ba355",
             "destination": ["mods"]
         },
         {
@@ -411,6 +411,61 @@
             },
             "size": 22639,
             "md5": "67c60a3fb2bcd6456406929a0865a3cd",
+            "destination": ["mods"]
+        },
+        {
+            "id": "staff-of-building",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3577332,
+                "projectId": 382694
+            },
+            "size": 112343,
+            "md5": "693a21bcfa4f811d0476864e333f66f2",
+            "destination": ["mods"]
+        },
+        {
+            "id": "damage-tilt",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3548092,
+                "projectId": 411705
+            },
+            "size": 26871,
+            "md5": "1e96b4ebcea469d10bbce6384b6542e2",
+            "destination": ["mods"]
+        },
+        {
+            "id": "couplings",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3554499,
+                "projectId": 311120
+            },
+            "size": 340405,
+            "md5": "39e3c00bba3c8ddc2ae42004656366f9",
+            "destination": ["mods"]
+        },
+        {
+            "id": "smooth-scroll",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3631944,
+                "projectId": 325861
+            },
+            "size": 974266,
+            "md5": "eaa50d303a7e1f03bb7ad7d03506591e",
+            "destination": ["mods"]
+        },
+        {
+            "id": "camera-overhaul",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3498010,
+                "projectId": 423602
+            },
+            "size": 917196,
+            "md5": "7df674ba0f2c93a9b94c49be4e3d68bb",
             "destination": ["mods"]
         },
         {
