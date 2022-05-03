@@ -1,7 +1,7 @@
 {
-    "version": "0.4.9",
-    "versionInt": 42,
-    "launcherVersion": ">=2.3.0",
+    "version": "0.4.10",
+    "versionInt": 43,
+    "launcherVersion": ">=2.4.0",
     "dependencies": [
         {
             "id": "java",
@@ -12,11 +12,27 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 29182908,
-            "md5": "0fc06e27cada10f2768af3443cb621da",
+            "size": 29181312,
+            "md5": "6239be90fb179ec3c15ab1b288fd0ba9",
             "post": {
                 "type": "extractZip",
                 "destination": []
+            }
+        },
+        {
+            "id": "__options",
+            "url": "https://lclpnet.work/lclplauncher/installations/ls5/options",
+            "size": 4092,
+            "md5": "85185693d96be699a61ebc372b5702de",
+            "destination": ["."],
+            "options": {
+                /* 
+                 * Indicates that this artifact contains user changeable content.
+                 * When the installation already contains the artifact, it will only be updated, if variableBaseVersion indicates an older version.
+                 * Basically, increment this number when there was an important update to the artifact.
+                 * The file will be resetted when it needs to be updated.
+                 */
+                "variableBaseVersion": 0
             }
         },
         {
