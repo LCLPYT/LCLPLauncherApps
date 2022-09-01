@@ -1,6 +1,6 @@
 {
-    "version": "0.4.10",
-    "versionInt": 43,
+    "version": "0.4.11",
+    "versionInt": 44,
     "launcherVersion": ">=2.4.0",
     "dependencies": [
         {
@@ -12,8 +12,8 @@
         {
             "id": "ls5_gamedir_resources",
             "url": "https://lclpnet.work/lclplauncher/installations/ls5/gamedir-resources",
-            "size": 29181312,
-            "md5": "6239be90fb179ec3c15ab1b288fd0ba9",
+            "size": 29181531,
+            "md5": "7d31ab2ec745cbece98dec95989cca75",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -86,9 +86,9 @@
         },
         {
             "id": "fabric-api",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/0.46.4+1.18/fabric-api-0.46.4%2B1.18.jar",
-            "size": 1174956,
-            "md5": "de4088c11e9e5233a62650b17588486f",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/0.46.6+1.18/fabric-api-0.46.6%2B1.18.jar",
+            "size": 1178637,
+            "md5": "d52144cf9b87b0eca3dda21d5ad22738",
             "destination": ["mods"]
         },
         {
@@ -309,6 +309,24 @@
             "destination": ["mods"]
         },
         {
+            "id": "sodium-shadowy-path",
+            "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/2.0.1/sodium-shadowy-path-blocks-2.0.1.jar",
+            "size": 51591,
+            "md5": "29e862530dd69e56cf215f02cc482b09",
+            "destination": ["mods"]
+        },
+        {
+            "id": "chimes",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3790371,
+                "projectId": 350464
+            },
+            "size": "5878670",
+            "md5": "529bcc0622ad5dd8a65aaeea2c9c314f",
+            "destination": ["mods"]
+        },
+        {
             "id": "cloth-config",
             "url": {
                 "type": "curseforge",
@@ -341,17 +359,17 @@
             "md5": "3855d61dc29f6e7d09885821af3a9a37",
             "destination": ["mods"]
         },
-        // {
-        //     "id": "effective",
-        //     "url": {
-        //         "type": "curseforge",
-        //         "fileId": 3580078,
-        //         "projectId": 556381
-        //     },
-        //     "size": 1512100,
-        //     "md5": "875cdee897fd53df724e59a7d9b4caa2",
-        //     "destination": ["mods"]
-        // },
+        {
+            "id": "effective",
+            "url": {
+                "type": "curseforge",
+                "fileId": 3735265,
+                "projectId": 556381
+            },
+            "size": 1722879,
+            "md5": "7921de87fd587025f7d65ea7eb635d37",
+            "destination": ["mods"]
+        },
         {
             "id": "geckolib",
             "url": {
@@ -471,17 +489,6 @@
             },
             "size": 974266,
             "md5": "eaa50d303a7e1f03bb7ad7d03506591e",
-            "destination": ["mods"]
-        },
-        {
-            "id": "camera-overhaul",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3498010,
-                "projectId": 423602
-            },
-            "size": 917196,
-            "md5": "7df674ba0f2c93a9b94c49be4e3d68bb",
             "destination": ["mods"]
         },
         {
