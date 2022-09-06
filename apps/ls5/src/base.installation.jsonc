@@ -1,7 +1,7 @@
 {
-    "version": "0.4.11",
-    "versionInt": 44,
-    "launcherVersion": ">=2.4.0",
+    "version": "0.4.12",
+    "versionInt": 45,
+    "launcherVersion": ">=2.5.3",
     "dependencies": [
         {
             "id": "java",
@@ -316,47 +316,28 @@
             "destination": ["mods"]
         },
         {
-            "id": "chimes",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3790371,
-                "projectId": 350464
-            },
-            "size": "5878670",
-            "md5": "529bcc0622ad5dd8a65aaeea2c9c314f",
-            "destination": ["mods"]
-        },
-        {
             "id": "cloth-config",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3641132,
-                "projectId": 319057
-            },
-            "size": 1122823,
-            "md5": "85b627bfbfa933d83c383a5e7034f496",
-            "destination": ["mods"]
-        },
-        {
-            "id": "oauth-fabric",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3566331,
-                "projectId": 515054
-            },
-            "size": 97926,
-            "md5": "559aa4f7f780a2388825811c2c3a93cc",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/gPqHXnrg/cloth-config-6.3.81-fabric.jar",
+            "size": 1126226,
+            "md5": "b1a2f90a96741fb139be01504345fbc9",
             "destination": ["mods"]
         },
         {
             "id": "architectury",
+            "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/3.9.66+fabric/architectury-3.9.66.jar",
+            "size": 566726,
+            "md5": "9144830b14301cdf5725cc989125c93e",
+            "destination": ["mods"]
+        },
+        {
+            "id": "chimes",
             "url": {
                 "type": "curseforge",
-                "fileId": 3717908,
-                "projectId": 419697
+                "fileId": 3790371,
+                "projectSlug": "chimes"
             },
-            "size": 538275,
-            "md5": "3855d61dc29f6e7d09885821af3a9a37",
+            "size": "5878670",
+            "md5": "529bcc0622ad5dd8a65aaeea2c9c314f",
             "destination": ["mods"]
         },
         {
@@ -364,7 +345,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3735265,
-                "projectId": 556381
+                "projectSlug": "effective"
             },
             "size": 1722879,
             "md5": "7921de87fd587025f7d65ea7eb635d37",
@@ -375,7 +356,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3661790,
-                "projectId": 388172
+                "projectSlug": "geckolib"
             },
             "size": 3550036,
             "md5": "cc1818f0a6eef63886c6b43c61e0a4a9",
@@ -386,7 +367,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3642143,
-                "projectId": 448233
+                "projectSlug": "entityculling"
             },
             "size": 44583,
             "md5": "b2c0d3c65bb7a76f9924e85e206602b9",
@@ -397,7 +378,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3631606,
-                "projectId": 225608
+                "projectSlug": "worldedit"
             },
             "size": 5496487,
             "md5": "0d40b7c74f9a02f0f4bba3c39118abce",
@@ -408,7 +389,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3631378,
-                "projectId": 402098
+                "projectSlug": "worldeditcui-fabric"
             },
             "size": 150381,
             "md5": "b2bd3d9ed9b452b75c8bc40ebf24ce84",
@@ -419,7 +400,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3671369,
-                "projectId": 303119
+                "projectSlug": "malilib"
             },
             "size": 493311,
             "md5": "34b3245333cde8544bb47e2490c658c1",
@@ -430,7 +411,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3671382,
-                "projectId": 308892
+                "projectSlug": "litematica"
             },
             "size": 893885,
             "md5": "dda4a91d6aca5e84ae48a1375ef2a53f",
@@ -441,7 +422,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3673256,
-                "projectId": 323316
+                "projectSlug": "accurate-block-placement"
             },
             "size": 22639,
             "md5": "67c60a3fb2bcd6456406929a0865a3cd",
@@ -452,7 +433,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3577332,
-                "projectId": 382694
+                "projectSlug": "staff-of-building"
             },
             "size": 112343,
             "md5": "693a21bcfa4f811d0476864e333f66f2",
@@ -463,7 +444,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3548092,
-                "projectId": 411705
+                "projectSlug": "damage-tilt"
             },
             "size": 26871,
             "md5": "1e96b4ebcea469d10bbce6384b6542e2",
@@ -474,7 +455,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3554499,
-                "projectId": 311120
+                "projectSlug": "couplings"
             },
             "size": 340405,
             "md5": "39e3c00bba3c8ddc2ae42004656366f9",
@@ -485,7 +466,7 @@
             "url": {
                 "type": "curseforge",
                 "fileId": 3631944,
-                "projectId": 325861
+                "projectSlug": "smooth-scrolling-everywhere-fabric"
             },
             "size": 974266,
             "md5": "eaa50d303a7e1f03bb7ad7d03506591e",
