@@ -1,7 +1,7 @@
 {
-    "version": "0.4.12",
-    "versionInt": 45,
-    "launcherVersion": ">=2.5.3",
+    "version": "0.4.13",
+    "versionInt": 46,
+    "launcherVersion": ">=2.6.0",
     "dependencies": [
         {
             "id": "java",
@@ -17,6 +17,16 @@
             "post": {
                 "type": "extractZip",
                 "destination": []
+            }
+        },
+        {
+            "id": "ls5_mods",
+            "url": "https://lclpnet.work/lclplauncher/installations/ls5/mods",
+            "size": 18764472,
+            "md5": "de5eac7c00cd54a97cec0026776b9819",
+            "post": {
+                "type": "extractZip",
+                "destination": ["mods"]
             }
         },
         {
@@ -327,149 +337,6 @@
             "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/3.9.66+fabric/architectury-3.9.66.jar",
             "size": 566726,
             "md5": "9144830b14301cdf5725cc989125c93e",
-            "destination": ["mods"]
-        },
-        {
-            "id": "chimes",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3790371,
-                "projectSlug": "chimes"
-            },
-            "size": "5878670",
-            "md5": "529bcc0622ad5dd8a65aaeea2c9c314f",
-            "destination": ["mods"]
-        },
-        {
-            "id": "effective",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3735265,
-                "projectSlug": "effective"
-            },
-            "size": 1722879,
-            "md5": "7921de87fd587025f7d65ea7eb635d37",
-            "destination": ["mods"]
-        },
-        {
-            "id": "geckolib",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3661790,
-                "projectSlug": "geckolib"
-            },
-            "size": 3550036,
-            "md5": "cc1818f0a6eef63886c6b43c61e0a4a9",
-            "destination": ["mods"]
-        },
-        {
-            "id": "entityculling",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3642143,
-                "projectSlug": "entityculling"
-            },
-            "size": 44583,
-            "md5": "b2c0d3c65bb7a76f9924e85e206602b9",
-            "destination": ["mods"]
-        },
-        {
-            "id": "worldedit",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3631606,
-                "projectSlug": "worldedit"
-            },
-            "size": 5496487,
-            "md5": "0d40b7c74f9a02f0f4bba3c39118abce",
-            "destination": ["mods"]
-        },
-        {
-            "id": "worldedit-cui",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3631378,
-                "projectSlug": "worldeditcui-fabric"
-            },
-            "size": 150381,
-            "md5": "b2bd3d9ed9b452b75c8bc40ebf24ce84",
-            "destination": ["mods"]
-        },
-        {
-            "id": "malilib",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3671369,
-                "projectSlug": "malilib"
-            },
-            "size": 493311,
-            "md5": "34b3245333cde8544bb47e2490c658c1",
-            "destination": ["mods"]
-        },
-        {
-            "id": "litematica",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3671382,
-                "projectSlug": "litematica"
-            },
-            "size": 893885,
-            "md5": "dda4a91d6aca5e84ae48a1375ef2a53f",
-            "destination": ["mods"]
-        },
-        {
-            "id": "accurate-block-placement",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3673256,
-                "projectSlug": "accurate-block-placement"
-            },
-            "size": 22639,
-            "md5": "67c60a3fb2bcd6456406929a0865a3cd",
-            "destination": ["mods"]
-        },
-        {
-            "id": "staff-of-building",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3577332,
-                "projectSlug": "staff-of-building"
-            },
-            "size": 112343,
-            "md5": "693a21bcfa4f811d0476864e333f66f2",
-            "destination": ["mods"]
-        },
-        {
-            "id": "damage-tilt",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3548092,
-                "projectSlug": "damage-tilt"
-            },
-            "size": 26871,
-            "md5": "1e96b4ebcea469d10bbce6384b6542e2",
-            "destination": ["mods"]
-        },
-        {
-            "id": "couplings",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3554499,
-                "projectSlug": "couplings"
-            },
-            "size": 340405,
-            "md5": "39e3c00bba3c8ddc2ae42004656366f9",
-            "destination": ["mods"]
-        },
-        {
-            "id": "smooth-scroll",
-            "url": {
-                "type": "curseforge",
-                "fileId": 3631944,
-                "projectSlug": "smooth-scrolling-everywhere-fabric"
-            },
-            "size": 974266,
-            "md5": "eaa50d303a7e1f03bb7ad7d03506591e",
             "destination": ["mods"]
         },
         {
