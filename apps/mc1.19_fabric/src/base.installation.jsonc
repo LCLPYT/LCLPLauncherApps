@@ -153,6 +153,41 @@
             "destination": ["mods"]
         },
         {
+            "id": "betterf3",
+            "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/C3hGuqnK/BetterF3-5.0.0-Fabric-1.19.3-pre2.jar",
+            "size": 1739098,
+            "md5": "782403ff60d6d8e69a5c350ce7aa1005",
+            "destination": ["mods"]
+        },
+        {
+            "id": "debugify",
+            "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/l8A2i9nV/Debugify-1.19.3%2B1.0.jar",
+            "size": 291976,
+            "md5": "c8f7447931d5911048bd3c477f736efd",
+            "destination": ["mods"]
+        },
+        {
+            "id": "no-chat-reports",
+            "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/LVpBaVhB/NoChatReports-FABRIC-1.19.3-v1.18.0.jar",
+            "size": 534262,
+            "md5": "974a2a161378c06c45a596bc234dfa83",
+            "destination": ["mods"]
+        },
+        {
+            "id": "zoomify",
+            "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/f017okM4/Zoomify-2.9.0.jar",
+            "size": 522856,
+            "md5": "1b5a517397489544fd1e83ddaee4f951",
+            "destination": ["mods"]
+        },
+        {
+            "id": "yet-another-config-lib",
+            "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/UIAaWmvd/YetAnotherConfigLib-2.0.0.jar",
+            "size": 175398,
+            "md5": "3a5c54dde96c9e81f0de4051c9b89bc2",
+            "destination": ["mods"]
+        },
+        {
             "id": "fabric",
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar",
             "size": 183721,
