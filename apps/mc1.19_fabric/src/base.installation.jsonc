@@ -12,8 +12,8 @@
         {
             "id": "resources",
             "url": "https://lclpnet.work/lclplauncher/installations/mc1.19_fabric/resources",
-            "size": 4185441,
-            "md5": "d052842d6e5f1c083add641b1333e0bd",
+            "size": 4186109,
+            "md5": "2bcde3d77496c1ac0b33d401b929255e",
             "post": {
                 "type": "extractZip",
                 "destination": []
@@ -185,6 +185,13 @@
             "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/UIAaWmvd/YetAnotherConfigLib-2.0.0.jar",
             "size": 175398,
             "md5": "3a5c54dde96c9e81f0de4051c9b89bc2",
+            "destination": ["mods"]
+        },
+        {
+            "id": "fallingtree",
+            "url": "https://cdn.modrinth.com/data/Fb4jn8m6/versions/2TNwaTtm/FallingTree-1.19.3-3.11.1.jar",
+            "size": 413198,
+            "md5": "db5b75bd290f23e266c3d47b2108c5d4",
             "destination": ["mods"]
         },
         {
