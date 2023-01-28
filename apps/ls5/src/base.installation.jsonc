@@ -75,9 +75,9 @@
         },
         {
             "id": "lclpmmo",
-            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.2.0/lclpmmo-2.2.0.jar",
-            "size": 10958495,
-            "md5": "2a5583d69db38dd95720c98b1626d4c5",
+            "url": "https://github.com/LCLPYT/LCLPMMO/releases/download/2.2.1/lclpmmo-2.2.1.jar",
+            "size": 10958812,
+            "md5": "eb22062a93fc9b8dd4e2436f717fcfa6",
             "destination": ["mods"]
         },
         {
@@ -389,17 +389,17 @@
             "post": {
                 "type": "executeProgram",
                 "program": "${dependency(java/17)}",
-                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.18.2", "-loader", "0.14.9"],
+                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.18.2", "-loader", "0.14.12"],
                 "makeExecutable": true,
                 "post": {
                     "type": "trackExistingFile",
-                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.9-1.18.2", "fabric-loader-0.14.9-1.18.2.jar"],
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.12-1.18.2", "fabric-loader-0.14.12-1.18.2.jar"],
                     "skipUninstall": true
                 }
             },
             "extra": {
                 // same as the path for the existing file tracker, but for the update checker here
-                "resultPath": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.9-1.18.2", "fabric-loader-0.14.9-1.18.2.jar"]
+                "resultPath": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.12-1.18.2", "fabric-loader-0.14.12-1.18.2.jar"]
             }
         }
     ],
@@ -410,7 +410,7 @@
             "name": "LCLPServer 5.0",
             "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
             "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
-            "lastVersionId": "fabric-loader-0.14.9-1.18.2",
+            "lastVersionId": "fabric-loader-0.14.12-1.18.2",
             "ensureLatest": true
         }
     ],
