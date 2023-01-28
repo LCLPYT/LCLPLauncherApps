@@ -109,13 +109,6 @@
             "destination": ["mods"]
         },
         {
-            "id": "ferrite-core",
-            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.2.1/ferritecore-4.2.1-fabric.jar",
-            "size": 119110,
-            "md5": "f5aec27f6d7bf3401195c3b1b7aa7bcf",
-            "destination": ["mods"]
-        },
-        {
             "id": "indium",
             "url": "https://cdn.modrinth.com/data/Orvt0mRa/versions/1.0.7+mc1.18.2/indium-1.0.7%2Bmc1.18.2.jar",
             "size": 118746,
@@ -409,7 +402,7 @@
             "id": "ls5",
             "name": "LCLPServer 5.0",
             "icon": "https://lclpnet.work/lclplauncher/installations/ls5/profile-icon",
-            "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+            "javaArgs": "-Xmx5G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
             "lastVersionId": "fabric-loader-0.14.12-1.18.2",
             "ensureLatest": true
         }
