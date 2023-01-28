@@ -124,9 +124,9 @@
         },
         {
             "id": "iris",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/1BCkW8RE/iris-mc1.18.2-1.4.0.jar",
-            "size": 2609760,
-            "md5": "399d956248a9cea7c0003ed1b174a316",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/mBwD8Zhm/iris-mc1.18.2-1.5.0.jar",
+            "size": 2721912,
+            "md5": "65ea13d66cc130cb2a0e9dbcff9983be",
             "destination": ["mods"]
         },
         {
