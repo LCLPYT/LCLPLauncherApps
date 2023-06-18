@@ -1,0 +1,58 @@
+{
+    "version": "1.0.0",
+    "versionInt": 1,
+    "launcherVersion": ">=2.7.0",
+    "dependencies": [
+        {
+            "id": "java",
+            "version": "17"
+        }
+    ],
+    "artifacts": [
+        {
+            "id": "gamefiles",
+            "url": "https://lclpnet.work/lclplauncher/installations/mc1.20_fabric/gamefiles",
+            "size": 41956534,
+            "md5": "98c459af4f477eeef0a52f9ab2d4b11d",
+            "post": {
+                "type": "extractZip",
+                "destination": []
+            }
+        },
+        {
+            "id": "fabric",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar",
+            "size": 183930,
+            "md5": "4b5ba900be96c5d9e6a79bae212438ff",
+            "post": {
+                "type": "executeProgram",
+                "program": "${dependency(java/17)}",
+                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.20.1", "-loader", "0.14.21"],
+                "makeExecutable": true,
+                "post": {
+                    "type": "trackExistingFile",
+                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.21-1.20.1"]
+                }
+            }
+        }
+    ],
+    "finalize": [
+        {
+            "type": "addMinecraftProfile",
+            "id": "mc1_20_fabric",
+            "name": "MC 1.20.1 Fabric",
+            "icon": "https://lclpnet.work/lclplauncher/installations/mc1.20_fabric/profile-icon",
+            "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+            "lastVersionId": "fabric-loader-0.14.21-1.20.1",
+            "ensureLatest": true
+        }
+    ],
+    "startup": {
+        "before": [
+            {
+                "type": "prepareMinecraftProfile",
+                "id": "mc1_20_fabric"
+            }
+        ]
+    }
+}
