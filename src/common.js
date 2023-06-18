@@ -3,8 +3,8 @@ import path from "path";
 import { argv } from "process";
 import { exists, mkdirp } from "./fshelper.js";
 
-export function error(msg) {
-    console.error(chalk.red(msg));
+export function error(...msg) {
+    console.error(chalk.red(msg.join(' ')));
     process.exit(1);
 }
 

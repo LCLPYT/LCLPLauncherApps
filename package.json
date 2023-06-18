@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "compile": "node src/index.js",
+    "compile": "node src/index.js compile",
+    "rebuild": "node src/index.js rebuild",
     "tool:artifact": "node src/tools.js artifact"
   },
   "type": "module",

@@ -10,10 +10,16 @@ export default async function artifact(args) {
     if (args.length < 1)
         tooFewArguments('tool:artifact', '<url>')
 
-    const tmpDir = await ensureTmpDirExists();
-
     /** @type string */
     const url = args[0];
+
+    const artifact = await createArtifact(url);
+
+    console.log(JSON.stringify(artifact, null, 4));
+}
+
+export async function createArtifact(url) {
+    const tmpDir = await ensureTmpDirExists();
 
     let downloadedName = null;
     await new Downloader({
@@ -30,18 +36,16 @@ export default async function artifact(args) {
 
     const file = path.resolve(tmpDir, downloadedName);
 
-    const result = {
-        url: url
-    };
-
     const stat = await fs.promises.stat(file);
     const md5 = await checksumFile(file, 'md5');
 
-    console.log(JSON.stringify({
+    const artifact = {
         url: url,
         size: stat.size,
         md5: md5
-    }, null, 4));
+    };
 
     await fs.promises.unlink(file);
+
+    return artifact;
 }
