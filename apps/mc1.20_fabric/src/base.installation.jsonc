@@ -12,12 +12,363 @@
         {
             "id": "gamefiles",
             "url": "https://lclpnet.work/lclplauncher/installations/mc1.20_fabric/gamefiles",
-            "size": 41956534,
-            "md5": "98c459af4f477eeef0a52f9ab2d4b11d",
+            "size": 5494074,
+            "md5": "1a85a52a6ebf0aed5d8df14c5a677914",
             "post": {
                 "type": "extractZip",
                 "destination": []
             }
+        },
+        {
+            "id": "ace-placer",
+            "url": "https://github.com/LCLPYT/ace-placer/releases/download/1.1.0%2B1.20.1/ace-placer-1.1.0+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "e8e9b242e971f903eb0186903a76de3c",
+            "size": 23992
+        },
+        {
+            "id": "better-f3",
+            "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/NwdpRyuN/BetterF3-7.0.0-Fabric-1.20-pre6.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "54ab9a36580c52e8443a7e23a13cf736",
+            "size": 1759665
+        },
+        {
+            "id": "cloth-config",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/y0kQixP8/cloth-config-11.0.99-fabric.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "626372b2b9705923c4bbd72e0bf4266e",
+            "size": 1147729
+        },
+        {
+            "id": "creative-power",
+            "url": "https://github.com/LCLPYT/creative-power/releases/download/0.2.2%2B1.20/creative-power-0.2.2+1.20.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "c13801e53e2f4f587aa024f84fe6360d",
+            "size": 128329
+        },
+        {
+            "id": "debugify",
+            "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/GTuKuQLA/Debugify-1.20.1%2B1.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "d15e143a7673f948b6a103b22758e96c",
+            "size": 334708
+        },
+        {
+            "id": "dynamic-fps",
+            "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/tChVqk53/dynamic-fps-2.3.0.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "4fda9b6f4bcb52e0a4728614f6a2cd4c",
+            "size": 74356
+        },
+        {
+            "id": "entity-culling",
+            "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/d20sUcYn/entityculling-fabric-1.6.2-mc1.20.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "7762e45df7b56fb6c10338e2ec07ee09",
+            "size": 57722
+        },
+        {
+            "id": "essential",
+            "url": "https://cdn.modrinth.com/data/k2ZPuTBm/versions/1.0.0/Essential-fabric_1-19.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "1190f107f306d60017b33aa5120b8376",
+            "size": 19059
+        },
+        {
+            "id": "fabric-api",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/K1pOTt6K/fabric-api-0.83.1%2B1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "93616b51e3bb4ac62ee674e94e5b55cc",
+            "size": 1975789
+        },
+        {
+            "id": "fabric-kotlin",
+            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/ADg3gvlr/fabric-language-kotlin-1.9.5%2Bkotlin.1.8.22.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "96398aa112efd9baa716f94eca2af681",
+            "size": 6631025
+        },
+        {
+            "id": "falling-leaves",
+            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/HMfGMPn2/fallingleaves-1.15.1%2B1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "65facbdb076a1a43006d5aa9c159b536",
+            "size": 157267
+        },
+        {
+            "id": "ferrite-core",
+            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/FCnCG6PS/ferritecore-6.0.0-fabric.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "67ce14ce1a5eb1637c1ff31ac2a0b2a0",
+            "size": 124927
+        },
+        {
+            "id": "gamma-utils",
+            "url": "https://cdn.modrinth.com/data/wdLuzzEP/versions/oy7ROzBx/Gamma-Utils-1.7.15-mc1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "3ab3dae9382e554b204e019d4a80cca4",
+            "size": 55096
+        },
+        {
+            "id": "iris",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/URWeWMAt/iris-mc1.20-1.6.4.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "21005bd3a9cd8d2857665ad0634a612f",
+            "size": 2368109
+        },
+        {
+            "id": "krypton",
+            "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/jiDwS0W1/krypton-0.2.3.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "3bf353c1ab576b57c003109c079e2ec8",
+            "size": 185895
+        },
+        {
+            "id": "lithium",
+            "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/ZSNsJrPI/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "026ca4110d57f16f701b400ad5d2ca26",
+            "size": 645865
+        },
+        {
+            "id": "modmenu",
+            "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/zv46i3PW/modmenu-7.1.0.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "df56c3e82050bc73d5b49c1a29e50d6a",
+            "size": 717936
+        },
+        {
+            "id": "reeses-sodium-options",
+            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/SgSIhHQO/reeses_sodium_options-1.5.1%2Bmc1.20-build.74.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "af237c85bb194ee2d6a83febe93c8d44",
+            "size": 54237
+        },
+        {
+            "id": "sodium-extra",
+            "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/kTxAMqAj/sodium-extra-0.4.20%2Bmc1.20-build.103.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "2c5356e940098e48d9fefae48e4de08a",
+            "size": 339186
+        },
+        {
+            "id": "sodium",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/vgceLbdH/sodium-fabric-mc1.20-0.4.10%2Bbuild.27.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "c1a216bd0b68dd0b8522447372aeb061",
+            "size": 717030
+        },
+        {
+            "id": "sodium-shadowy-path",
+            "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/lvRng8PE/sodium-shadowy-path-blocks-3.1.0.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "1d31677138b0f36420ae6f516e37efee",
+            "size": 49199
+        },
+        {
+            "id": "sound-physics",
+            "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/gAP9590c/soundphysics-fabric-1.20.1-1.1.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "ec8695d79bedbdb71c8fe853b0443ed8",
+            "size": 127412
+        },
+        {
+            "id": "visuality",
+            "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/BipSJ05N/visuality-0.7.0%2B1.20.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "49044bdcb65403a59d987301b19d7115",
+            "size": 66997
+        },
+        {
+            "id": "we-additions",
+            "url": "https://github.com/LCLPYT/we-additions/releases/download/1.0.1%2B1.20.1/we-additions-1.0.1+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "1d660667502925b8a3560a973fd7f679",
+            "size": 52225
+        },
+        {
+            "id": "worldedit-cui",
+            "url": "https://github.com/EngineHub/WorldEditCUI/releases/download/1.20%2B01/WorldEditCUI-1.20+01.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "0b8e9df18d7560279efcb22705f4e674",
+            "size": 577426
+        },
+        {
+            "id": "yet-another-config-lib",
+            "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/zJ1Wh6pM/yet-another-config-lib-fabric-3.0.2%2B1.20.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "d5f1401004df8a661f0b72e781a91610",
+            "size": 796708
+        },
+        {
+            "id": "zoomify",
+            "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/1mKrqlvv/Zoomify-2.10.0.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "8eac39e6cdfc136fdde40d136394caad",
+            "size": 724365
+        },
+        {
+            "id": "bsl-shaders",
+            "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/P1eZktJ3/BSL_v8.2.04.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "9b7be3e5521d70f9ffa0aa19d8b484cc",
+            "size": 932543
+        },
+        {
+            "id": "rethinking-voxels",
+            "url": "https://cdn.modrinth.com/data/kmwfVOoi/versions/1LqpOU4L/rethinking-voxels_r0.1_alpha4.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "91ec50cc87ec65324fffa31c19b0f835",
+            "size": 388209
+        },
+        {
+            "id": "complementary-reimagined",
+            "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/38cfnenN/ComplementaryReimagined_r2.2.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "ba5ff120ed02ef109da54ae15a7615d9",
+            "size": 271145
+        },
+        {
+            "id": "complementary-shaders",
+            "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/G16NNnV9/ComplementaryShaders_v4.7.2.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "9eab6a42fd4c81b8e0837aacab3f0435",
+            "size": 3456306
+        },
+        {
+            "id": "shrimple",
+            "url": "https://cdn.modrinth.com/data/BS9T99lD/versions/HTIocIBv/Shrimple_v0.9.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "46914601ac4a57041a6bc3698f4c47f1",
+            "size": 6537837
+        },
+        {
+            "id": "noblert",
+            "url": "https://cdn.modrinth.com/data/sclYVqbt/versions/NjhHRXAY/NobleRT%20v1.3.4.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "10026fb0a3e3a4afb8ee7b1c4a2ff932",
+            "size": 11210711
+        },
+        {
+            "id": "red-hat-shaders",
+            "url": "https://cdn.modrinth.com/data/ZvitaqQh/versions/Wj06jiwi/RedHat_v34.1.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "932a00d3ec2897bf2474161e94efd6a1",
+            "size": 193754
+        },
+        {
+            "id": "snowimagined",
+            "url": "https://cdn.modrinth.com/data/RC7Z2EaZ/versions/j9JJRIVO/Snowimagined-1.1.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "2acb25e7f8a514a215179cdcfc0be317",
+            "size": 239295
+        },
+        {
+            "id": "solar-shader",
+            "url": "https://cdn.modrinth.com/data/EpQFjzrQ/versions/bNMgAWCx/Solas%20Shader%20V1.5.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "95350e14034f3dd95ffbda370394a130",
+            "size": 810074
+        },
+        {
+            "id": "voyager-shader",
+            "url": "https://cdn.modrinth.com/data/71EyVfCn/versions/s57hTDRO/Voyager%20shader%202.0.6.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "54f6dfaa318a7be0ef918d74b1c6b49c",
+            "size": 368324
+        },
+        {
+            "id": "vanilla-plus-shader",
+            "url": "https://cdn.modrinth.com/data/EPsIYDj1/versions/4srzWowt/VanillaPlus_v3.2.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "46251da9800f5d74353de3e422d76bc7",
+            "size": 441994
+        },
+        {
+            "id": "insanity-shader",
+            "url": "https://cdn.modrinth.com/data/EQWX2WiO/versions/EAygPxjB/Insanity-Shader-Universal-v1.410.zip",
+            "destination": [
+                "shaderpacks"
+            ],
+            "md5": "a003985115972de273a8b4c32634d37f",
+            "size": 1036466
         },
         {
             "id": "fabric",
@@ -27,11 +378,25 @@
             "post": {
                 "type": "executeProgram",
                 "program": "${dependency(java/17)}",
-                "args": ["-jar", "${result}", "client", "-dir", "${input(minecraftDir)}", "-mcversion", "1.20.1", "-loader", "0.14.21"],
+                "args": [
+                    "-jar",
+                    "${result}",
+                    "client",
+                    "-dir",
+                    "${input(minecraftDir)}",
+                    "-mcversion",
+                    "1.20.1",
+                    "-loader",
+                    "0.14.21"
+                ],
                 "makeExecutable": true,
                 "post": {
                     "type": "trackExistingFile",
-                    "path": ["${input(minecraftDir)}", "versions", "fabric-loader-0.14.21-1.20.1"]
+                    "path": [
+                        "${input(minecraftDir)}",
+                        "versions",
+                        "fabric-loader-0.14.21-1.20.1"
+                    ]
                 }
             }
         }
