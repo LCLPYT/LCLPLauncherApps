@@ -48,12 +48,12 @@
         },
         {
             "id": "creative-power",
-            "url": "https://github.com/LCLPYT/creative-power/releases/download/0.2.2%2B1.20/creative-power-0.2.2+1.20.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "c13801e53e2f4f587aa024f84fe6360d",
-            "size": 128329
+            "url": "https://github.com/LCLPYT/creative-power/releases/download/0.3.0%2B1.20.1/creative-power-0.3.0+1.20.1.jar",
+            "size": 130478,
+            "md5": "eed9afec036cd1aac3bd464b7c0ec148"
         },
         {
             "id": "debugify",
@@ -84,21 +84,21 @@
         },
         {
             "id": "essential",
-            "url": "https://cdn.modrinth.com/data/k2ZPuTBm/versions/1.0.0/Essential-fabric_1-19.jar",
+            "url": "https://cdn.modrinth.com/data/k2ZPuTBm/versions/SLg31vTD/essential_1-2-2-2_fabric_1-20-1.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "1190f107f306d60017b33aa5120b8376",
-            "size": 19059
+            "md5": "ce97ae476249db30903911f1f4190d46",
+            "size": 49147473
         },
         {
             "id": "fabric-api",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/K1pOTt6K/fabric-api-0.83.1%2B1.20.1.jar",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/tFw0iWAk/fabric-api-0.90.0%2B1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "93616b51e3bb4ac62ee674e94e5b55cc",
-            "size": 1975789
+            "md5": "b01ef4c05c587b95c06e7c826c5fe536",
+            "size": 2059348
         },
         {
             "id": "fabric-kotlin",
@@ -138,12 +138,12 @@
         },
         {
             "id": "iris",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/URWeWMAt/iris-mc1.20-1.6.4.jar",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/P8R7yx6t/iris-mc1.20.1-1.6.9.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "21005bd3a9cd8d2857665ad0634a612f",
-            "size": 2368109
+            "md5": "07a396be80bde9a20d1a0035b884acaa",
+            "size": 2407136
         },
         {
             "id": "krypton",
@@ -192,12 +192,12 @@
         },
         {
             "id": "sodium",
-            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/vgceLbdH/sodium-fabric-mc1.20-0.4.10%2Bbuild.27.jar",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/4OZL6q9h/sodium-fabric-mc1.20.1-0.5.3.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "c1a216bd0b68dd0b8522447372aeb061",
-            "size": 717030
+            "md5": "11db63c388786f3bfdb9e60c9c0a25c1",
+            "size": 852373
         },
         {
             "id": "sodium-shadowy-path",
@@ -261,6 +261,60 @@
             ],
             "md5": "8eac39e6cdfc136fdde40d136394caad",
             "size": 724365
+        },
+        {
+            "id": "the-fabric-architect",
+            "url": "https://github.com/LCLPYT/TheFabricArchitect/releases/download/0.7.0%2B1.20.1/fabric-architect-0.7.0+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 746605,
+            "md5": "3cbaf50f763eea3b86f93f9f7a8c1fe4"
+        },
+        {
+            "id": "mplugins",
+            "url": "https://github.com/LCLPYT/mplugins/releases/download/0.18.0%2B1.20.1/mplugins-0.18.0+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 267057,
+            "md5": "fb41e97b6f77db8066fe7f7bfbaa7491"
+        },
+        {
+            "id": "kibu",
+            "url": "https://github.com/LCLPYT/kibu/releases/download/0.63.0%2B1.20.1/kibu-0.63.0+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 736866,
+            "md5": "f680255c05242ea283bec6088195b264"
+        },
+        {
+            "id": "kibu-plugins",
+            "url": "https://github.com/LCLPYT/kibu-plugins/releases/download/0.13.0%2B1.20.1/kibu-plugins-0.13.0+1.20.1.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 50545,
+            "md5": "c53fcfa37335ebe06f6271023a10b59d"
+        },
+        {
+            "id": "fantasy",
+            "url": "https://github.com/NucleoidMC/fantasy/releases/download/v0.4.11%2B1.20-rc1/fantasy-0.4.11+1.20-rc1.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 48277,
+            "md5": "ab494b62b705bdc6f884497e62403d03"
+        },
+        {
+            "id": "pal",
+            "url": "https://github.com/LCLPYT/pal/releases/download/0.7.1%2B1.20.1/pal-0.7.1+1.20.1.jar",
+            "destination": [
+                "plugins"
+            ],
+            "size": 114665,
+            "md5": "038ba3a85c7beefd5096b34968fc4d99"
         },
         {
             "id": "bsl-shaders",
@@ -387,7 +441,7 @@
                     "-mcversion",
                     "1.20.1",
                     "-loader",
-                    "0.14.21"
+                    "0.14.23"
                 ],
                 "makeExecutable": true,
                 "post": {
@@ -395,7 +449,7 @@
                     "path": [
                         "${input(minecraftDir)}",
                         "versions",
-                        "fabric-loader-0.14.21-1.20.1"
+                        "fabric-loader-0.14.23-1.20.1"
                     ]
                 }
             }
@@ -408,7 +462,7 @@
             "name": "MC 1.20.1 Fabric",
             "icon": "https://lclpnet.work/lclplauncher/installations/mc1.20_fabric/profile-icon",
             "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
-            "lastVersionId": "fabric-loader-0.14.21-1.20.1",
+            "lastVersionId": "fabric-loader-0.14.23-1.20.1",
             "ensureLatest": true
         }
     ],
