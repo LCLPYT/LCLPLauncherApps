@@ -174,21 +174,21 @@
         },
         {
             "id": "reeses-sodium-options",
-            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/SgSIhHQO/reeses_sodium_options-1.5.1%2Bmc1.20-build.74.jar",
+            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/hCsMUZLa/reeses_sodium_options-1.6.5%2Bmc1.20.1-build.95.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "af237c85bb194ee2d6a83febe93c8d44",
-            "size": 54237
+            "md5": "285c0e4ed6ece301585958fb2095ac9d",
+            "size": 70820
         },
         {
             "id": "sodium-extra",
-            "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/kTxAMqAj/sodium-extra-0.4.20%2Bmc1.20-build.103.jar",
+            "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/80a0J5Cn/sodium-extra-0.5.1%2Bmc1.20.1-build.112.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "2c5356e940098e48d9fefae48e4de08a",
-            "size": 339186
+            "md5": "58d4b98aa8b259665c835fc6add5021b",
+            "size": 365533
         },
         {
             "id": "sodium",
@@ -201,12 +201,12 @@
         },
         {
             "id": "sodium-shadowy-path",
-            "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/lvRng8PE/sodium-shadowy-path-blocks-3.1.0.jar",
+            "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/mTd2QOfb/sodium-shadowy-path-blocks-3.2.1.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "1d31677138b0f36420ae6f516e37efee",
-            "size": 49199
+            "md5": "d44faf99174b32c9ec62f4feff73fda1",
+            "size": 54820
         },
         {
             "id": "sound-physics",
