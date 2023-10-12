@@ -264,12 +264,12 @@
         },
         {
             "id": "the-fabric-architect",
-            "url": "https://github.com/LCLPYT/TheFabricArchitect/releases/download/0.7.0%2B1.20.1/fabric-architect-0.7.0+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/TheFabricArchitect/releases/download/0.7.1%2B1.20.1/fabric-architect-0.7.1+1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "size": 746605,
-            "md5": "3cbaf50f763eea3b86f93f9f7a8c1fe4"
+            "size": 745273,
+            "md5": "ce8eb11cc642df0e884ee2f78d0e5b5f"
         },
         {
             "id": "mplugins",
