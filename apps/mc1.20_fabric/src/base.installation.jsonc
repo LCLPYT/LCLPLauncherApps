@@ -282,12 +282,12 @@
         },
         {
             "id": "kibu",
-            "url": "https://github.com/LCLPYT/kibu/releases/download/0.66.1%2B1.20.1/kibu-0.66.1+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/kibu/releases/download/0.66.2%2B1.20.1/kibu-0.66.2+1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "size": 741165,
-            "md5": "36a9e99c0a0254e0b8509a6330b736fd"
+            "size": 741512,
+            "md5": "bccd47d1d4d51348a988498b175973ce"
         },
         {
             "id": "kibu-plugins",
