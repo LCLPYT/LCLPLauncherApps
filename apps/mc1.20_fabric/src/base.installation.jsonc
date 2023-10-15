@@ -317,6 +317,15 @@
             "md5": "038ba3a85c7beefd5096b34968fc4d99"
         },
         {
+            "id": "ruler",
+            "destination": [
+                "mods"
+            ],
+            "url": "https://github.com/LCLPYT/ruler/releases/download/0.1.0%2B1.20.1/ruler-0.1.0+1.20.1.jar",
+            "md5": "b2a1df9ca3ddc441082ed6384ec2ffea",
+            "size": 64490
+        },
+        {
             "id": "bsl-shaders",
             "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/P1eZktJ3/BSL_v8.2.04.zip",
             "destination": [
