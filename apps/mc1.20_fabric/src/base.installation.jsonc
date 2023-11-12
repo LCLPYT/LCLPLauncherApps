@@ -93,12 +93,12 @@
         },
         {
             "id": "fabric-api",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/tFw0iWAk/fabric-api-0.90.0%2B1.20.1.jar",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/JXpzzvU6/fabric-api-0.90.7%2B1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "b01ef4c05c587b95c06e7c826c5fe536",
-            "size": 2059348
+            "md5": "7e79e50da607e30d5889cb58806db081",
+            "size": 2059852
         },
         {
             "id": "fabric-kotlin",
@@ -138,12 +138,12 @@
         },
         {
             "id": "iris",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/P8R7yx6t/iris-mc1.20.1-1.6.9.jar",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/DsjYuGMO/iris-mc1.20.1-1.6.10.jar",
             "destination": [
                 "mods"
             ],
-            "md5": "07a396be80bde9a20d1a0035b884acaa",
-            "size": 2407136
+            "md5": "c2fec037c71f3574e758ad5833f2ac73",
+            "size": 2412690
         },
         {
             "id": "krypton",
@@ -273,30 +273,30 @@
         },
         {
             "id": "mplugins",
-            "url": "https://github.com/LCLPYT/mplugins/releases/download/0.18.0%2B1.20.1/mplugins-0.18.0+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/mplugins/releases/download/0.20.0%2B1.20.1/mplugins-0.20.0+1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "size": 267057,
-            "md5": "fb41e97b6f77db8066fe7f7bfbaa7491"
+            "size": 272930,
+            "md5": "94d488fc11064f42e3500a5fe83fcbb7"
         },
         {
             "id": "kibu",
-            "url": "https://github.com/LCLPYT/kibu/releases/download/0.66.2%2B1.20.1/kibu-0.66.2+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/kibu/releases/download/0.83.1%2B1.20.1/kibu-0.83.1+1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "size": 741512,
-            "md5": "bccd47d1d4d51348a988498b175973ce"
+            "size": 928746,
+            "md5": "900fcb5893412969c18ef79ff5dc7f11"
         },
         {
             "id": "kibu-plugins",
-            "url": "https://github.com/LCLPYT/kibu-plugins/releases/download/0.13.0%2B1.20.1/kibu-plugins-0.13.0+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/kibu-plugins/releases/download/0.16.0%2B1.20.1/kibu-plugins-0.16.0+1.20.1.jar",
             "destination": [
                 "mods"
             ],
-            "size": 50545,
-            "md5": "c53fcfa37335ebe06f6271023a10b59d"
+            "size": 59156,
+            "md5": "15a6b57e88fa545980e9c47c1b395e9c"
         },
         {
             "id": "fantasy",
@@ -309,12 +309,12 @@
         },
         {
             "id": "pal",
-            "url": "https://github.com/LCLPYT/pal/releases/download/0.7.1%2B1.20.1/pal-0.7.1+1.20.1.jar",
+            "url": "https://github.com/LCLPYT/pal/releases/download/0.8.0%2B1.20.1/pal-0.8.0+1.20.1.jar",
             "destination": [
                 "plugins"
             ],
-            "size": 114665,
-            "md5": "038ba3a85c7beefd5096b34968fc4d99"
+            "size": 133164,
+            "md5": "9a568a7228ec71cd1f2c3fc9cfb094e8"
         },
         {
             "id": "ruler",
@@ -324,6 +324,15 @@
             "url": "https://github.com/LCLPYT/ruler/releases/download/0.1.0%2B1.20.1/ruler-0.1.0+1.20.1.jar",
             "md5": "b2a1df9ca3ddc441082ed6384ec2ffea",
             "size": 64490
+        },
+        {
+            "id": "combat-control",
+            "destination": [
+                "mods"
+            ],
+            "url": "https://github.com/LCLPYT/combat-control/releases/download/1.0.0%2B1.20.1/combat-control-1.0.0+1.20.1.jar",
+            "md5": "2b2c0320ec7b93d5e95c0d6c5ed293ee",
+            "size": 310406
         },
         {
             "id": "bsl-shaders",
