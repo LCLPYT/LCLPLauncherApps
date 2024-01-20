@@ -13,7 +13,17 @@
         "launcherCompat": 0,
         "program": [
             ["/", "Program Files (x86)", "Minecraft Launcher", "MinecraftLauncher.exe"], 
-            ["/", "Program Files (x86)", "Minecraft", "MinecraftLauncher.exe"]
+            ["/", "Program Files (x86)", "Minecraft", "MinecraftLauncher.exe"],
+            ["launch_minecraft_windows.bat"]
         ]
-    }
+    },
+    "artifacts": [
+        {
+            "id": "launch-minecraft-windows",
+            "url": "https://lclpnet.work/dl/launch-minecraft-windows",
+            "destination": [],
+            "md5": "7d73496023f87de5c5bab43cb87e28ce",
+            "size": 159
+        }
+    ]
 }
