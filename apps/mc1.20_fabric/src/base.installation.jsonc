@@ -263,6 +263,15 @@
             "md5": "0535b673a7ac489d98be47d1bf85f777"
         },
         {
+            "id": "nvidium",
+            "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/UO1crPGk/nvidium-0.2.5-beta.jar",
+            "destination": [
+                "mods"
+            ],
+            "size": 163819,
+            "md5": "ef931df2f0670fab01da7b2949d024b4"
+        },
+        {
             "id": "mplugins",
             "url": "https://github.com/LCLPYT/mplugins/releases/download/0.21.2%2B1.20.4/mplugins-0.21.2+1.20.4.jar",
             "destination": [
