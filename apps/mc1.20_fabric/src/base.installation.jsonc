@@ -339,9 +339,9 @@
             "destination": [
                 "mods"
             ],
-            "url": "https://github.com/LCLPYT/notica/releases/download/1.0.0%2B1.20.4/notica-1.0.0+1.20.4.jar",
-            "md5": "bd323dd04a8d85d2433e581066dd323b",
-            "size": 583321
+            "url": "https://github.com/LCLPYT/notica/releases/download/1.1.0%2B1.20.4/notica-1.1.0+1.20.4.jar",
+            "md5": "909949dff77f0914d432cdc5662085b2",
+            "size": 587234
         },
         {
             "id": "worldedit",
