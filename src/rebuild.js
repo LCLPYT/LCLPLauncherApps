@@ -34,7 +34,7 @@ async function updateArtifact(obj) {
     try {
         artifact = await createArtifact(url);
     } catch(any) {
-        error('Failed to fetch artifact', any);
+        error('Failed to fetch artifact', url, any);
         return;
     }
 

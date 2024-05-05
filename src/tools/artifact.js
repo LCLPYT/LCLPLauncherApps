@@ -1,10 +1,10 @@
-import http from 'http';
-import https from 'https';
 import fs from 'fs';
 import path from 'path';
 import { ensureTmpDirExists, error, tooFewArguments } from '../common.js';
 import Downloader from 'nodejs-file-downloader';
 import { checksumFile } from '../checksums.js';
+
+const DOWNLOAD_DELAY_MS = 3000;
 
 export default async function artifact(args) {
     if (args.length < 1)
@@ -25,11 +25,21 @@ export async function createArtifact(url) {
     await new Downloader({
         url: url,
         directory: tmpDir,
+        maxAttempts: 3,
+        shouldStop() {
+          if (e.statusCode && e.statusCode === 404) {
+            return true;
+          }
+        },
         cloneFiles: false,
         onBeforeSave: deducedName => {
             return downloadedName = deducedName;
         },
     }).download();
+
+    await new Promise((resolve) => {
+        setTimeout(resolve, DOWNLOAD_DELAY_MS);
+    });
 
     if (!downloadedName)
         error('Could not deduce download file name');
