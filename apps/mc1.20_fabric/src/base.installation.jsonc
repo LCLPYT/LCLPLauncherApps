@@ -335,6 +335,15 @@
             "size": 6252225
         },
         {
+            "id": "we-additions",
+            "url": "https://github.com/LCLPYT/we-additions/releases/download/1.0.1%2B1.20.6/we-additions-1.0.1+1.20.6.jar",
+            "destination": [
+                "mods"
+            ],
+            "md5": "0e976ab9e485bc59ca13281a6ac38cbd",
+            "size": 51870
+        },
+        {
             "id": "bsl-shaders",
             "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/1aQAjQxR/BSL_v8.2.07.1.zip",
             "destination": [
