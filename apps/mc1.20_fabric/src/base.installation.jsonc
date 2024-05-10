@@ -330,9 +330,9 @@
             "destination": [
                 "mods"
             ],
-            "url": "https://ci.enginehub.org/repository/download/bt10/24059:id/worldedit-fabric-mc1.20.6-7.3.1-SNAPSHOT-dist.jar?branch=version/7.3.x&guest=1",
-            "md5": "9bed2d0bc9c6186bb79dcfc3481e0c87",
-            "size": 4796452
+            "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/2BXiy3fP/worldedit-mod-7.3.1.jar",
+            "md5": "f6c27a10dbca7a75d1e90fe0874c6576",
+            "size": 6252225
         },
         {
             "id": "bsl-shaders",
